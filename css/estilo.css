@@ -1,0 +1,103 @@
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* Área de menu */
+
+.menu a { 
+	color: white;
+	text-decoration: none;
+	padding: 5%;
+}
+
+.menu {
+	background-color: red;
+	text-align: center;
+}
+
+/* Área de rodapé */
+
+#txtpagamento {
+	color: red;
+	font-weight: bolder;
+}
+
+#rodape {
+	text-align: center;
+}
+
+/* Área dos produtos */
+
+.produtos {
+	text-align: left;
+	margin-top: -48.4%;
+	width: 85%;
+	margin-left: 15%;
+}
+
+.box_produto {
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.descricao {
+	font-size: 13px;
+}
+
+
+.categorias {
+	width: 15%;
+	height: 800px;
+	cursor: pointer;
+}
+
+.preco {
+	color: red;
+	font-size: 19px;
+}
+
+/* Área de lojas */
+
+.lojas {
+	position: center;
+	margin-left: 100px;
+	width: 100%;
+	margin-top: 1%;
+	font-size: 18px;
+}
+
+.box_loja {
+	display: inline-block;
+	padding: 7%;
+}
+
+/* Página de contato */
+
+.contatos {
+	font-size: 20px; 
+	text-align: center;
+ }
+
+.box_contato {
+ 	display: inline-block;
+ 	padding: 5%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
