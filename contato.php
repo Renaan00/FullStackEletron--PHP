@@ -6,14 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
-	<!-- início do menu -->
-	<nav class="menu">
-		<a href="./index.html"><img width="100px" src="img pgvendas/logo.jpeg"></a>
-		<a href="./produtos.html">Nossos produtos</a>
-		<a href="./loja.html">Nossas lojas</a>
-		<a href="./contato.html">Fale conosco</a>
-	</nav>
-	<!-- fim do menu -->
+	
+	<!-- Menu -->
+	<?php include("menu.html") ?>
 
 	<header>
 		<h2>Fale Conosco</h2>
@@ -23,11 +18,11 @@
 
 	<section class="contatos">
 		<div class="box_contato">
-			<img width="35px" src="img pgvendas/icon_email.png">
+			<img width="35px" src="./icon_email.png">
 			<p>contato@fullstackeletro.com</p>
 		</div>
 		<div class="box_contato">
-			<img width="45px" src="img pgvendas/icon_tel.jpg">
+			<img width="45px" src="./icon_tel.jpg">
 			<p>(11) 99999-9999</p>
 		</div>
 	</section>
@@ -45,10 +40,8 @@
 	<br><br><br><br><br>
 	<br>
 
-	<footer id="rodape">
-		<p id="txtpagamento">Formas de pagamento:</p>
-		<img src="img pgvendas/pagamento.jpeg" alt="Formas de pagamento" width="390px">
-		<p>&copy; Recode Pro</p>
-	</footer>
+	<!-- Rodapé -->
+    <?php include("rodape.html") ?>
+
 </body>
 </html>
